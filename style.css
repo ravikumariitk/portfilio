@@ -1,0 +1,90 @@
+@media only screen and  (min-width:992px) {
+    .nav{
+        text-decoration: none;
+       position: relative;
+       left: 35vw;
+       padding:30px 50px 0px 50px;
+       color: black;
+       font-weight:500;
+       
+    }
+    .nav:hover{
+        color: orange;
+    }
+    #title{
+        font-size:30px;
+        text-decoration: none;
+        position: relative;
+        /* left: 100px; */
+        padding:30px 50px 0px 50px;
+    }
+    #title:hover{
+        color: orange;
+    }
+}
+@media only screen and  (max-width:991px)
+{
+#title{
+    font-size:30px;
+    text-decoration: none;
+    padding: 10px;
+}
+}
+@media only screen and (max-width:800px){
+    #main{
+        display: inline-block;
+        position: relative;
+    }
+    #main img{
+        display: none;
+    }
+   
+  
+}
+@media only screen and (min-width:801px)
+{
+    #main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 70vh;
+    }
+    #main img{
+        height: 26vw;
+    }
+}
+#port{
+    margin:0 5vw 0 5vw ;
+ }
+
+#main p,h1{
+    font-size: 25px;
+    margin-top: 40px;
+}
+#main .btn{
+    background-color: orange;
+}
+#contacts{
+    display: grid;
+    grid-template-columns: 1fr 20fr;
+}
+
+
+#edu,#works,#skills{
+    display: grid;
+    grid-template-columns: 1fr 20fr;
+
+}
+.contacts{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.contacts:hover{
+    color: orange;
+}
+#education{
+    display: grid;
+    grid-template-columns: 20fr 3fr;
+}

@@ -22,6 +22,14 @@
         color: orange;
     }
 }
+#pr1{
+    text-decoration: none;
+     font-weight:500;
+     color:black;
+}
+#pr1:hover{
+    color: orange;
+}
 @media only screen and  (max-width:991px)
 {
 #title{
@@ -84,7 +92,7 @@
 .contacts:hover{
     color: orange;
 }
-#education{
+#education,#projects{
     display: grid;
     grid-template-columns: 20fr 3fr;
 }
